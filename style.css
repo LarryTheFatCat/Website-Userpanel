@@ -1,0 +1,139 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color:#1c1b24;
+  display: grid;
+  place-items: center;
+  height: 10vh;
+  color: #fff;
+}
+
+.card {
+  border-radius: 1.25rem;
+  width: 23.125rem;
+  height: 21.875rem;
+  background: #232328;
+  border: 3.5px solid rgb(68, 7, 236);
+  display: grid;
+  place-items: center;
+  margin-top: 12rem;
+}
+
+.login-title {
+  display: grid;
+  place-items: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.name {
+  margin-top: -1rem;
+}
+
+.password {
+  margin-bottom: 4rem;
+}
+
+.input {
+  border-radius: 4px;
+  border: 2px solid rgb(68, 7, 236);
+  border-color: rgb(68, 7, 236);
+  width: 205px;
+  height: 40px;
+  font-size: 18px;
+  display: grid;
+  place-items: center;
+}
+
+.login-button {
+  background: rgb(68, 7, 236);
+  color: #fff;
+  border-style: none;
+  border-radius: 2px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.6rem 1.2rem;
+  margin-top: -80px;
+}
+
+/*
+ *  Dashboard code here
+ */
+ .card2 {
+  border-radius: 20px;
+  width: 23.125;
+  height: 30rem;
+  background: #232328;
+  border: 3.5px solid rgb(68, 7, 236);
+  display: grid;
+  place-items: center;
+  margin-top: 5.5rem;
+  animation: fadeHeight, card-fadeMargin-top;
+  animation-duration: 0.25s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.welcome {
+  font-size: 1rem;
+  margin-top: -1rem;
+}
+
+.gethelp-button {
+  background: rgb(68, 7, 236);
+  color: #fff;
+  border-style: none;
+  border-radius: 2px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.6rem 1.2rem;
+  margin-top: 10rem;
+}
+
+.logout-button {
+  background: rgb(68, 7, 236);
+  color: #fff;
+  border-style: none;
+  border-radius: 2px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.6rem 1.2rem;
+  margin-top: 3rem;
+}
+
+/*
+ * Keyframes
+ */
+@keyframes fadeHeight {
+  from {
+    height: 350px;
+  } to {
+    height: 480px;
+ }
+}
+
+@keyframes card-fadeMargin-top {
+  from {
+    margin-top: 12em;
+  } to {
+    margin-top: 8em;
+ }
+}
+
+@keyframes title-fadeMargin-top {
+  from {
+    margin-top: 0em;
+  } to {
+    margin-top: -9em;
+ }
+}
