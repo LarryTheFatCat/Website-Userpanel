@@ -85,6 +85,28 @@ body {
   margin-top: -1rem;
 }
 
+.download-button {
+  background: rgb(68, 7, 236);
+  color: #fff;
+  border-style: none;
+  border-radius: 2px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.6rem 1.2rem;
+  margin-top: 3rem;
+  -webkit-animation: fadein 0.5s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 0.5s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 0.5s;
+  /* Internet Explorer */
+  -o-animation: fadein 0.5s;
+  /* Opera < 12.1 */
+  animation: fadein 0.5s;
+}
+
 .gethelp-button {
   background: rgb(68, 7, 236);
   color: #fff;
@@ -95,7 +117,7 @@ body {
   font-size: 1.2rem;
   cursor: pointer;
   padding: 0.6rem 1.2rem;
-  margin-top: 10rem;
+  margin-top: 2rem;
   -webkit-animation: fadein 0.5s;
   /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 0.5s;
@@ -117,7 +139,7 @@ body {
   font-size: 1.2rem;
   cursor: pointer;
   padding: 0.6rem 1.2rem;
-  margin-top: 3rem;
+  margin-top: -1rem;
   -webkit-animation: fadein 0.5s;
   /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 0.5s;
