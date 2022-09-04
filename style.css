@@ -19,11 +19,9 @@ body {
 }
 
 .login-title {
-  display: grid;
-  place-items: center;
   font-size: 1.25rem;
   font-weight: bold;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .input {
@@ -33,8 +31,6 @@ body {
   width: 230px;
   height: 40px;
   font-size: 18px;
-  display: grid;
-  place-items: center;
   padding-left: 0.7rem;
   margin-top: -1rem;
 }
@@ -48,7 +44,7 @@ body {
   font-size: 1.2rem;
   cursor: pointer;
   font-size: 23px;
-  padding: 0.5rem 4rem;
+  padding: 0.4rem 4rem;
   margin-top: -1rem;
 }
 
@@ -60,6 +56,64 @@ body {
 
 .reset-password-text {
   color: rgb(255, 255, 255);
+  font-size: 0.85rem;
+  margin-top: -1.2rem;
+}
+
+.reset-password-text:hover {
+  color: rgb(255, 255, 255);
+  font-size: 0.85rem;
+  opacity: 72%;
+  transition: opacity 0.12s;
+}
+
+/*
+ *  Password reset page code here
+ */
+ .password-reset-card {
+  border-radius: 1.25rem;
+  width: 23.125rem;
+  height: 21.875rem;
+  background: #232328;
+  border: 3.5px solid rgb(68, 7, 236);
+  display: grid;
+  place-items: center;
+  margin-top: 12rem;
+} 
+
+.password-reset-title  {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.password-reset-input {
+  border-radius: 0.8rem;
+  border: 2px solid rgb(68, 7, 236);
+  border-color: rgb(68, 7, 236);
+  width: 230px;
+  height: 40px;
+  font-size: 18px;
+  padding-left: 0.7rem;
+  margin-top: -1rem;
+}
+
+.password-reset-button {
+  background: rgb(68, 7, 236);
+  color: #fff;
+  border-style: none;
+  border-radius: 1.5rem;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.8rem 3.2rem;
+}
+
+.password-reset-button:hover {
+  background: rgb(68, 7, 236);
+  opacity: 80%;
+  transition: opacity 0.12s;
 }
 
 /*
