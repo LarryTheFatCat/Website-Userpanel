@@ -1,9 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #1c1b24;
   display: grid;
   place-items: center;
-  height: 10vh;
+  height: 100vh;
   color: #fff;
 }
 
@@ -15,7 +21,6 @@ body {
   border: 3.5px solid rgb(68, 7, 236);
   display: grid;
   place-items: center;
-  margin-top: 12rem;
 }
 
 .login-title {
@@ -78,7 +83,6 @@ body {
   border: 3.5px solid rgb(68, 7, 236);
   display: grid;
   place-items: center;
-  margin-top: 12rem;
 } 
 
 .password-reset-title  {
