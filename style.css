@@ -26,18 +26,29 @@ body {
 .login-title {
   font-size: 1.25rem;
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-top: 2.5rem;
 }
 
-.input {
+.input-username {
   border-radius: 0.8rem;
   border: 2px solid rgb(68, 7, 236);
   border-color: rgb(68, 7, 236);
-  width: 230px;
+  width: 250px;
   height: 40px;
   font-size: 18px;
   padding-left: 0.7rem;
-  margin-top: -1rem;
+  margin-top: 2rem;
+}
+
+.input-password {
+  border-radius: 0.8rem;
+  border: 2px solid rgb(68, 7, 236);
+  border-color: rgb(68, 7, 236);
+  width: 250px;
+  height: 40px;
+  font-size: 18px;
+  padding-left: 0.7rem;
+  margin-bottom: 5rem;
 }
 
 .login-button {
@@ -50,7 +61,7 @@ body {
   cursor: pointer;
   font-size: 23px;
   padding: 0.4rem 4rem;
-  margin-top: -1rem;
+  margin-top: -7.5rem;
 }
 
 .login-button:hover {
@@ -131,7 +142,6 @@ body {
   border: 3.5px solid rgb(68, 7, 236);
   display: grid;
   place-items: center;
-  margin-top: 5.5rem;
   animation: fadeHeight, card-fadeMargin-top;
   animation-duration: 0.25s;
   transition-timing-function: ease-in;
@@ -141,24 +151,25 @@ body {
 .title {
   font-size: 2rem;
   font-weight: bold;
+  margin-top: 2rem;
 }
 
 .welcome {
   font-size: 1rem;
-  margin-top: -1rem;
+  margin-top: 1rem;
 }
 
 .download-button {
   background: rgb(68, 7, 236);
   color: #fff;
   border-style: none;
-  border-radius: 2px;
+  border-radius: 0.8rem;
   display: inline-block;
   text-decoration: none;
   font-size: 1.2rem;
   cursor: pointer;
   padding: 0.6rem 1.2rem;
-  margin-top: 3rem;
+  margin-top: 4rem;
   -webkit-animation: fadein 0.5s;
   /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 0.5s;
@@ -180,13 +191,13 @@ body {
   background: rgb(68, 7, 236);
   color: #fff;
   border-style: none;
-  border-radius: 2px;
+  border-radius: 0.8rem;
   display: inline-block;
   text-decoration: none;
   font-size: 1.2rem;
   cursor: pointer;
   padding: 0.6rem 1.2rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
   -webkit-animation: fadein 0.5s;
   /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 0.5s;
@@ -208,7 +219,7 @@ body {
   background: rgb(68, 7, 236);
   color: #fff;
   border-style: none;
-  border-radius: 2px;
+  border-radius: 0.8rem;
   display: inline-block;
   text-decoration: none;
   font-size: 1.2rem;
@@ -294,21 +305,21 @@ body {
  */
 @keyframes fadeHeight {
   from {
-    height: 350px;
+    height: 21.875rem;
   }
 
   to {
-    height: 480px;
+    height: 30rem;
   }
 }
 
 @keyframes card-fadeMargin-top {
   from {
-    margin-top: 12rem;
+    margin-top: 6.5rem;
   }
 
   to {
-    margin-top: 8rem;
+    margin-top: 4.5rem;
   }
 }
 
